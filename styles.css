@@ -1,0 +1,252 @@
+body 
+{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin:0;
+    height:100vh;
+}
+.link_page
+{
+    background-color: #0B1D51;
+    color:white;
+}
+
+
+.dashboard 
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap:10px;
+}
+
+.home,.profile,.message,.history,.tasks,.community,.setting,.support,.privacy
+{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px;
+    padding-left: 90px;
+}
+
+.setting
+{
+    margin-top: 80px;
+}
+
+.main
+{
+    background-color: aliceblue;
+    display:flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #ffffff, #f8f9fc); /* subtle gradient */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* soft shadow */
+    border-radius: 0 0 10px 10px; /* slight rounding at bottom */
+}
+
+.searchRow
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.leftSide
+{
+    grid-column-start: 1;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.leftSide input {
+    border: none; /* remove default border */
+    outline: none; /* remove blue outline */
+    background-color: #f1f3f6; /* soft gray background */
+    border-radius: 20px; /* rounded edges */
+    padding: 8px 15px; /* inner spacing */
+    width: 300px;
+    font-size: 14px;
+    color: #333; /* text color */
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); /* subtle inner shadow */
+    transition: all 0.2s ease;
+}
+
+.leftSide input:focus {
+    background-color: #fff; /* turns white when active */
+    box-shadow: 0 0 0 2px #1877F2; /* blue focus ring */
+}
+
+.rightSide
+{
+    grid-column-start: 2;
+   display:flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap:20px; 
+   padding-right: 50px;
+}
+.rightSide .penguin
+{
+    width:50px;
+    height:50px;
+}
+.navRow 
+{
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.navRow .left
+{
+    grid-column-start: 1;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px;
+}
+.avatar
+{
+    width:60px;
+    height:60px;
+}
+.left p 
+{
+    font-weight: bold;
+}
+p span 
+{
+    font-weight: normal;
+    font-size:15px;
+}
+
+.navRow .right 
+{
+    grid-column: 2;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:10px;
+}
+.right button
+{
+padding:10px;
+border:1px solid white;
+border-radius: 20px;
+color:white;
+background-color: #1877F2;
+width:90px;
+}
+.project_announcement
+{
+    padding-left:20px;
+    padding-right: 258px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_page 
+{
+    display:grid;
+    grid-template-columns: repeat(2,1fr) 320px;
+    padding: 0 20px;
+    gap:10px;
+}
+.first_col
+{
+    grid-column-start: 1;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.main_page .project
+{
+    grid-column: 1 / 3;
+}
+.main_page .announcement 
+{
+    grid-column: 3;
+}
+.super_cool
+{
+    border:1px solid white;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    border-left: 10px solid yellow;
+}
+.super_cool h5, .super_cool p
+{
+    padding:0;
+    margin:0;
+}
+.icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:20px;
+}
+.second_col
+{
+    grid-column-start: 2;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.third_col
+{
+    grid-column-start:3 ;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.box1, .box2
+{
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+}
+.box1 h5
+{
+margin:5px 0;
+}
+.box1 p
+{
+    font-size: smaller;
+    padding:0;
+    margin:0;
+}
+
+.trending-profile
+{
+    
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px;
+}
+.avatarProfile
+{
+    width:40px;
+    height:40px;
+}
+.box2 p 
+{
+    font-size: small;
+    color:gray;
+}
+.box2 p span 
+{
+    font-weight: normal;
+    font-size:15px;
+    color:black;
+}
+
+
+
